@@ -1,0 +1,64 @@
+.container{
+    position: relative;
+    width: 100%;
+    height: 700px;
+    margin: 30px;
+    box-shadow: 10px 10px 50px rgba(2, 132, 255, 0.437);
+    border-radius: 15px;
+    overflow: scroll auto;
+}
+
+.btn-quiz{
+    border: 2px solid tomato;
+    color: tomato;
+    background-color: aliceblue;
+    transition: 0.2s ease-in;
+    width: 70px;
+}
+
+.btn-quiz:hover{
+    border: 2px solid rgb(255, 42, 9);
+    color: rgb(253, 253, 253);
+    background-color: rgb(50, 37, 35);
+    font-weight: 600;
+    font-variant: small-caps;
+    
+}
+
+.btn-last{
+    border: 1px solid rgba(28, 6, 126, 0.606);
+    color: rgb(249, 249, 249);
+    background-color: rgb(46, 111, 168);
+    transition: 0.2s ease-in;
+    width: 100px;
+}
+
+.btn-last:hover{
+    border: 2px solid rgb(0, 0, 0);
+    box-shadow: 5px 5px 20px red;
+    color: rgb(253, 253, 253);
+    background-color: rgb(99, 157, 203);
+    font-weight: 600;
+    font-variant: small-caps;
+}
+
+.last{
+    margin-top: 100px;
+    margin-left: 470px;
+}
+
+.bg-ans{
+    box-shadow: 0px 4px 10px rgb(141, 169, 197);
+    border-radius: 200px;
+    color: white;
+    font-weight: 900;
+    font-size: larger;
+    border-bottom: 2px solid black;
+}
+
+.bg-noans{
+    box-shadow: 0px 4px 10px slategray;
+    border-radius: 200px;
+    font-weight: 400;
+    border-bottom: 2px solid red;
+}

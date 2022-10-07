@@ -1,0 +1,92 @@
+body{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background:linear-gradient(#f0f,#B8E0FF,#FFF);
+  font-variant: small-caps;
+}
+
+
+body::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f00,#f0f);
+  clip-path: circle(33% at right 70%);
+}
+
+body::after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(#f00,#f0f);
+  clip-path: circle(17% at left 90%);
+}
+
+.btn {
+  border-radius: 5px;
+}
+
+.option {
+  font-size: 20px;
+  padding: 5px;
+  margin: 1px;
+  display: flex;
+}
+
+#quiz .options input[type=checkbox] {
+  height: 18px;
+  width: 18px;
+}
+
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.result-question {
+  background-color: rgba(208, 244, 255, 0.386);
+  margin: 4px;
+  padding: 6px;
+}
+
+@media only screen and (max-width: 480px) {
+
+  h1,
+  .h1 {
+    font-size: 22px;
+  }
+
+  h2,
+  .h2 {
+    font-size: 20px;
+  }
+
+  h3,
+  .h3 {
+    font-size: 18px;
+  }
+
+  .option {
+    font-size: 16px;
+    padding: 6px;
+  }
+}
+
+.card-img-bottom {
+  width: 100%;
+  height: 30vw;
+  border-radius: 5px;
+}
+
+
+footer{
+  margin-top: auto;
+}
+
